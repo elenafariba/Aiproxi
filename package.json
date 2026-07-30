@@ -1,5 +1,5 @@
 {
-  "name": "railway-vless",
+  "name": "railway-vless-node",
   "version": "1.0.0",
   "description": "VLESS WebSocket Proxy for Railway",
   "main": "index.js",
@@ -8,5 +8,8 @@
   },
   "dependencies": {
     "ws": "^8.16.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
